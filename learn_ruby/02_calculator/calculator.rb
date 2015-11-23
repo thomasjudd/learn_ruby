@@ -27,3 +27,9 @@ def power(base, power)
    end
    result
 end
+
+def factorial(num)
+    result = 1
+    for i in 1..num; result*=i;end
+    result
+end
